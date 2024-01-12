@@ -1,0 +1,201 @@
+{
+    "numberCharacterBar": {
+        "pos": [
+            -15,
+            100,
+            0
+        ],
+        "scale": 1
+    },
+    "arrowHand": {
+        "scale": 0.7,
+        "pos": {
+            "x": -140,
+            "y": -40,
+            "z": 0
+        },
+        "distance_x": 200,
+        "anchor_y_text": 0.13
+    },
+    "screen_morefun": {
+        "anchor_x": [
+            0,
+            1
+        ],
+        "distance_y": 480,
+        "pos_y": -150,
+        "text_head": {
+            "anchor_x": 0.51,
+            "anchor_y": 0.9445
+        },
+        "coin": {
+            "scale": 0.48,
+            "anchor_x": 0.92,
+            "anchor_y": 0.927
+        },
+        "scrollView": [
+            0.04,
+            0,
+            0.95,
+            0.85
+        ],
+        "sizeVid": [
+            1280,
+            720
+        ]
+    },
+    "home_run": {
+        "ic_spin": {
+            "anchor_x": 0.92,
+            "anchor_y": 0.52
+        },
+        "ic_morefun": {
+            "anchor_x": 0.08,
+            "anchor_y": 0.52
+        },
+        "ic_challenge": {
+            "anchor_x": 0.08,
+            "anchor_y": 0.75
+        },
+        "ic_setting": {
+            "anchor_x": 0.04,
+            "anchor_y": 0.937
+        },
+        "ic_levelrise": {
+            "anchor_x": 0.92,
+            "anchor_y": 0.75
+        },
+        "text_level": {
+            "anchor_x": 0.5,
+            "anchor_y": 0.93
+        },
+        "coin": {
+            "anchor_x": 0.89,
+            "anchor_y": 0.946,
+            "scale": 0.47
+        }
+    },
+    "setting": {
+        "scale": 0.75,
+        "anchor_x": 0.5,
+        "anchor_y": 0.5
+    },
+    "challenge": {
+        "lock_challenge": {
+            "scaleWidth": 0.75,
+            "scaleHeight": 0.68,
+            "textSize": 35
+        },
+        "scaleWidth": 0.8,
+        "scaleHeight": 0.9,
+        "textSize": 40,
+        "textSize_start": 52
+    },
+    "spin": {
+        "scale": 0.43,
+        "anchor_spin": 0.88,
+        "getReward": {
+            "button_get": {
+                "anchor_x": 0.5,
+                "anchor_y": 0.3
+            }
+        }
+    },
+    "levelRise": {
+        "scale": 1,
+        "element": {
+            "elementBackPath": 370
+        },
+        "anchor_x": 0.5,
+        "anchor_y": 0.5
+    },
+    "cardCharacter": {
+        "scale": 0.7,
+        "anchor_x": 0.48,
+        "anchor_y": 0.52
+    },
+    "home_arena": {
+        "ic_card": {
+            "anchor_x": 0.1,
+            "anchor_y": 0.9
+        },
+        "text_level": {
+            "anchor_x": 0.5,
+            "anchor_y": 0.93,
+            "textSize": 54
+        },
+        "coin": {
+            "anchor_x": 0.83,
+            "anchor_y": 0.9
+        },
+        "card_range": {
+            "anchor_x": 0.73,
+            "anchor_y": 0.15
+        },
+        "card_melee": {
+            "anchor_x": 0.27,
+            "anchor_y": 0.15
+        },
+        "btn_battle": {
+            "anchor_x": 0.5,
+            "anchor_y": 0.15
+        }
+    },
+    "cameraArena": {
+        "pos": [
+            0,
+            35,
+            -25
+        ],
+        "rot": [
+            120,
+            0,
+            -180
+        ]
+    },
+    "cameraRun": {
+        "pos": [
+            0,
+            6,
+            -6
+        ],
+        "rot": [
+            -32,
+            180,
+            0
+        ],
+        "camera_limit_x": 5
+    },
+    "vic_arena_screen": {
+        "panel": {
+            "anchor_x": 0.5,
+            "anchor_y": 0.65
+        },
+        "coin": {
+            "anchor_x": 0.93,
+            "anchor_y": 0.95,
+            "scale": 0.47
+        },
+        "bonus": {
+            "anchor_x": 0.5,
+            "anchor_y": 0.47,
+            "scale": 0.45
+        },
+        "btnClaim": {
+            "anchor_x": 0.5,
+            "anchor_y": 0.28,
+            "scale": 1.2
+        },
+        "btnNoThank": {
+            "anchor_x": 0.5,
+            "anchor_y": 0.15,
+            "scale": 0.9
+        }
+    },
+    "lose_screen_run": {
+        "btn_tryAgain": {
+            "anchor_x": 0.5,
+            "anchor_y": 0.25
+        }
+    }
+}

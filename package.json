@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "@tweenjs/tween.js": "^20.0.3",
+    "canvas-confetti": "^1.6.0",
+    "gh-pages": "^5.0.0",
+    "html-inline-script-webpack-plugin": "^3.1.0",
+    "ip": "^1.1.8",
+    "playcanvas": "1.63.0",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abidanang/NumberMerge.git"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "esbuild-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.1"
+  },
+  "name": "EpicBananaRun",
+  "version": "1.0.0",
+  "main": "game.js",
+  "scripts": {
+    "data": "node ./scripts/assetReader.js",
+    "start": "webpack serve --env env=dev --open",
+    "host": "webpack serve --env env=host --open",
+    "build": "webpack --env env=preview",
+    "clean-gh-pages-cached": "node node_modules/gh-pages/bin/gh-pages-clean",
+    "deploy": "gh-pages -d dist",
+    "preview-upload": "webpack --env env=preview && aws s3 cp preview s3://abidn.space/NumberMerge --recursive --cache-control max-age=120 --acl public-read"
+  },
+  "author": "ABI game studio",
+  "license": "ISC",
+  "description": ""
+}
